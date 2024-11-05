@@ -1,46 +1,63 @@
-# Getting Started with Create React App
+# 🎥Movies_Booking
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to **🎥Movies_Booking**, a platform to basic movie booking app.
 
-## Available Scripts
+## Routes
 
-In the project directory, you can run:
+| Path                 | Screen        |
+| -------------------- | ------------- |
+| `/`                  | Home          |
+| `/movies/`           | Movies        |
+| `/movies/{movie-id}` | Movie Details |
+| `/bookings`          | Bookings      |
 
-### `npm start`
+## Technologies Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Here's a list:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- **[React](https://reactjs.org/)**
+- **[TypeScript](https://www.typescriptlang.org/)**
+- **[Redux Toolkit](https://redux-toolkit.js.org/)**
+- **[Material UI](https://mui.com/material-ui/)**
+- **[Axios](https://axios-http.com/)**
 
-### `npm test`
+## Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+**🎥Movies_Booking** offers a variety of features to provide a seamless booking experience:
 
-### `npm run build`
+- **Browse Movies**: Explore a wide selection of movies.
+- **Book Tickets**: Choose your seats and book tickets in a few clicks.
+- **View Bookings**: View past bookings.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Getting Started
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Prerequisites
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Before installation, please ensure you have the latest version of Node.js and npm installed. Visit [Node.js official site](https://nodejs.org/) to download and install them.
 
-### `npm run eject`
+### Install Dependencies
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Once you have cloned the repository, you'll need to install the project's dependencies. These dependencies are required for the project to run properly. Navigate to the project directory and use one of the following commands, depending on whether you are using npm or Yarn as your package manager:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- **Using npm:**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+  ```bash
+  npm install
+  ```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+  OR
 
-## Learn More
+- **Using yarn:**
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+  ```bash
+  yarn install
+  ```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- **Run the application:**
+  ```bash
+  npm start
+  ```
+  OR
+  ```bash
+  yarn start
+  ```
